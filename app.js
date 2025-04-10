@@ -21,7 +21,7 @@ const connectDb = () => {
       .then(() => console.log('Connected to DB'));
 
     app.listen(port, () =>
-      console.log(`listening on http://localhost:${port}`)
+      console.log(`listening -  on http://localhost:${port}`)
     );
   } catch (error) {
     console.log(error);
